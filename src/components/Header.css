@@ -22,6 +22,7 @@ header .logo img {
 .links-nav a {
   margin: 35px;
   text-decoration: none;
+  text-shadow: none;
   background: white;
   padding: 7.5px 12px 7.5px 12px;
   border-radius: 10px;

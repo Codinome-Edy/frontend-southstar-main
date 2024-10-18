@@ -1,34 +1,12 @@
 import "../static/Home.css";
+import Sidebar from "../components/Sidebar"
 
 export default function Home() {
   return (
     <>
       <div className="container">
-        {/* Sidebar */}
-        <div className="sidebar">
-          <div className="logo1">
-            <i className="fab fa-xing"></i>
-          </div>
-          <div className="menu">
-            <div className="menu-item">
-              <i className="fas fa-home"></i> <span>Home</span>
-            </div>
-            <div className="menu-item">
-              <i className="fas fa-search"></i> <span>Explore</span>
-            </div>
-            <div className="menu-item">
-              <i className="fas fa-bell"></i> <span>Notifications</span>
-            </div>
-            <div className="menu-item">
-              <i className="fas fa-envelope"></i> <span>Messages</span>
-            </div>
-            <div className="menu-item">
-              <i className="fas fa-user"></i> <span>Profile</span>
-            </div>
-          </div>
-          <button className="post-button">Post</button>
-        </div>
 
+        <Sidebar></Sidebar>
         {/* Main Content */}
         <div className="main-content">
           <div className="header">

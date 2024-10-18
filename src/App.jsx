@@ -7,6 +7,7 @@ import ForgotPassword from './pages/ForgotPassword'; // Corrigi o nome da import
 import Cadastro from './pages/Cadastro'
 import Home from './pages/Home';
 import './App.css';
+import Perfil from './pages/Perfil';
 
 // Criação do roteador com as rotas definidas
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/forgot-password',
         element: <ForgotPassword />
+      },
+      {
+        path: '/perfil',
+        element: <Perfil />
       }
     ]
   }
